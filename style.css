@@ -1,0 +1,21 @@
+body {
+	background-color: rgba(167, 195, 43, 0.26);
+}
+
+header {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 48px;
+	
+}
+
+#wrapper {
+	background-size: inherit;
+	background-color: rgba(55, 17, 207, 0.14);
+    margin-top:1%;
+    margin-left:1%;
+    margin-right:1%;
+    border:0px;
+    
+	min-height: 600px;
+}
