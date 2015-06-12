@@ -13,14 +13,17 @@ header {
 	position: fixed;
 	font-size: 28px;
 	background-color: #ff5600;
-	background: -webkit-linear-gradient(#ffffff 14.9%, #ff5a00 65.23%);
+	background: -webkit-linear-gradient(#ff5a00 0%, #ffffff 100%);
 	
 }
 
 container{
 }
 
-div
+div {
+	resize: both;
+	overflow: auto;
+}
 
 img {
 	width: 100%;
@@ -40,9 +43,9 @@ img {
 #content {
 	width: 100%;
 	position: relative;
-	top: 400px;
+	top: 330px;
 	height: 1500px;
-	background: rgba(235, 235, 235, 0.95);
+	background: rgba(179, 182, 179, 0.75);
 }
 
 #wrapper {
