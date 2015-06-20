@@ -25,9 +25,6 @@ div {
 	overflow: auto;
 }
 
-img {
-	width: 100%;
-}
 
 #banner {
 	width: 100%;
@@ -45,7 +42,7 @@ img {
 	position: relative;
 	top: 330px;
 	height: 1500px;
-	background: rgba(179, 182, 179, 0.75);
+	background: rgba(179, 182, 179, 0.85);
 }
 
 #wrapper {
