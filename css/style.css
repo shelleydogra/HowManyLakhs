@@ -1,5 +1,39 @@
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Grid
+- Base Styles
+- Typography
+- Links
+- Buttons
+- Forms
+- Lists
+- Code
+- Tables
+- Spacing
+- Utilities
+- Clearing
+- Media Queries
+*/
+
+
+
 body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form {
 	margin: 0; padding: 0; border: 0;
+}
+
+
+/* Color Classes
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.saffron {
+	color: #FF9933;
+}
+.flagGreen {
+	
+}
+
+
+h1:first-child {
+	color: #fff;
 }
 
 body {
@@ -12,7 +46,7 @@ header {
 	height: 150px;
 	position: fixed;
 	font-size: 28px;
-	background-color: #ff5600;
+	background-color: #ff9a34;
 	background: -webkit-linear-gradient(#ff5a00 0%, #ffffff 100%);
 	
 }
@@ -42,7 +76,7 @@ div {
 	position: relative;
 	top: 330px;
 	height: 1500px;
-	background: rgba(179, 182, 179, 0.85);
+	background: rgba(13, 13, 13, 0.47);
 }
 
 #wrapper {
