@@ -11,12 +11,25 @@
 <link href="css/skeleton.css" rel="stylesheet" />
 <link href="css/normalize.css" rel="stylesheet" />
 
+
+<script lang="JavaScript">
+	function calculateRuppees(frm) {
+		var calculatedValue = 0
+		var currencyInput = frm.dollarAmount.value
+		
+		calculatedValue = currencyInput * 63.37
+		frm.ruppeeAmount.value = calculatedValue.toFixed(2)
+		
+	}
+</script>
+
 </head>
 
 <body>
 	<div>
 		<header>
 			<h1 class="welcome-container">Lakh Calculator</h1>
+			
 			<h3 >Covert currency in Terms of &#8377; Units</h3>
 		</header>
 		
@@ -31,6 +44,20 @@
 		<div id="content">
 			<h4>Scroll &darr;</h4>
 			<p>Content will go on this layer...</p>
+			
+			<br /> <br />
+			
+			<h2>Calculator</h2>
+			
+			<form action="home.html" method="post" accept-charset="utf-8">
+				
+				<input type="number" name="dollarAmount" id="dollarAmount" placeholder="Enter $ Amount">
+				<br />
+				<input type="text" name="ruppeeAmount" id="ruppeeAmount" placeholder="Conversion">
+				<br />
+				<input type="button" name="Button" value="Calculate" onclick="calculateRuppees(this.form)">
+				
+			</form>
 		</div>
 	</div>	
 </body>
