@@ -9,7 +9,9 @@ body {
 ______________________________________________________ */
 
 .main { padding-top: 3%; }
-.row { padding: 2% 0px;}
+.row { padding: 2% 0px;
+	text-align: center;
+}
 .primary_color { background-color: #fff; }
 
 
@@ -30,19 +32,27 @@ header.main_nav {
 }
 
 .logo a {
-	font-size: 3em;
-	text-decoration: none;
-	color: #000;
+	font-size: 30px;
+	color: #0cb020;
 	border: 3px solid;
 	text-transform: uppercase;
 	padding: 2px 10px 0 10px;
 	margin: 0;
+	text-decoration: none;
 }
 
 .logo a:hover {
 	background-color: #000;
 	color: #fff;
-	font-style: italic;
+	f
+}
+
+input {
+	text-align: center;
+}
+
+input[type=text] {
+	border: none;
 }
 
 
@@ -55,3 +65,13 @@ header.main_nav {
 .debug.gray {
 	background-color: gray;
 }
+
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.logo a {
+			font-size: 25px;
+			color: #dd0b0b;
+		}
+	}
